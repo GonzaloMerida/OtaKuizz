@@ -14,6 +14,7 @@ class GameOverFragment : Fragment() {
 
     private var _binding : FragmentGameOverBinding? = null
     val binding
+        //como quiero que no sea nulo y siempre tenga un valor le añado !!
         get() = _binding!!
 
     override fun onCreate(savedInstanceState: Bundle?) {
