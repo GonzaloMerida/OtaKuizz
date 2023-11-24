@@ -13,7 +13,7 @@ class GamewonFragment : Fragment() {
 
 
     private var _binding : FragmentGamewonBinding? = null
-    private val binding
+    val binding
         get() = _binding!!
 
     override fun onCreate(savedInstanceState: Bundle?) {

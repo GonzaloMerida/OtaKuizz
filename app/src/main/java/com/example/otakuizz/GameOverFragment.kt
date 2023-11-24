@@ -13,7 +13,7 @@ class GameOverFragment : Fragment() {
 
 
     private var _binding : FragmentGameOverBinding? = null
-    private val binding
+    val binding
         get() = _binding!!
 
     override fun onCreate(savedInstanceState: Bundle?) {
