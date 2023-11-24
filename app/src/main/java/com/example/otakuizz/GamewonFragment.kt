@@ -31,7 +31,7 @@ class GamewonFragment : Fragment() {
         _binding = FragmentGamewonBinding.inflate(inflater, container, false)
 
         binding.btnNext.setOnClickListener {
-            findNavController().navigate(R.id.action_gamewonFragment_to_titleFragment)
+            findNavController().navigate(R.id.action_gamewonFragment_to_gameFragment)
         }
 
         return binding.root

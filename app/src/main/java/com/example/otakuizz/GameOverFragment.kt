@@ -32,7 +32,7 @@ class GameOverFragment : Fragment() {
         _binding = FragmentGameOverBinding.inflate(inflater, container, false)
 
         binding.btnRetry.setOnClickListener {
-            findNavController().navigate(R.id.action_gameOverFragment_to_titleFragment)
+            findNavController().navigate(R.id.action_gameOverFragment_to_gameFragment)
         }
 
         return binding.root

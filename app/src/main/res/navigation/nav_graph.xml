@@ -36,8 +36,10 @@
         android:label="fragment_gamewon"
         tools:layout="@layout/fragment_gamewon" >
         <action
-            android:id="@+id/action_gamewonFragment_to_titleFragment"
-            app:destination="@id/titleFragment" />
+            android:id="@+id/action_gamewonFragment_to_gameFragment"
+            app:destination="@id/gameFragment"
+            app:popUpTo="@id/titleFragment"
+            app:popUpToInclusive="false" />
     </fragment>
     <fragment
         android:id="@+id/gameOverFragment"
@@ -45,7 +47,9 @@
         android:label="fragment_game_over"
         tools:layout="@layout/fragment_game_over" >
         <action
-            android:id="@+id/action_gameOverFragment_to_titleFragment"
-            app:destination="@id/titleFragment" />
+            android:id="@+id/action_gameOverFragment_to_gameFragment"
+            app:destination="@id/gameFragment"
+            app:popUpTo="@id/titleFragment"
+            app:popUpToInclusive="false" />
     </fragment>
 </navigation>
