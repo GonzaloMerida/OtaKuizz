@@ -61,11 +61,11 @@
     <fragment
         android:id="@+id/aboutFragment"
         android:name="com.example.otakuizz.AboutFragment"
-        android:label="fragment_about"
+        android:label="@string/about"
         tools:layout="@layout/fragment_about" />
     <fragment
         android:id="@+id/rulesFragment"
         android:name="com.example.otakuizz.RulesFragment"
-        android:label="fragment_rules"
+        android:label="@string/rules"
         tools:layout="@layout/fragment_rules" />
 </navigation>
